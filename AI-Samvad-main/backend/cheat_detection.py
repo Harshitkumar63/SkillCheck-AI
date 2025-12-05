@@ -16,6 +16,7 @@ class CheatDetectionService:
         self.mp_hands = mp.solutions.hands
         self.mp_pose = mp.solutions.pose
         
+        
         # Initialize detectors
         self.face_detection = self.mp_face_detection.FaceDetection(
             model_selection=0, min_detection_confidence=0.5
