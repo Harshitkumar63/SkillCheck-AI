@@ -4,7 +4,6 @@ from pydantic import BaseModel, EmailStr
 from typing import Optional
 from datetime import datetime
 from dotenv import load_dotenv
-
 import os
 import smtplib
 import ssl
