@@ -12,7 +12,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
-# Optional service imports (keep endpoints loadable even if services missing)
+
 try:
     from ai_services import ai_service  # type: ignore
 except Exception:
