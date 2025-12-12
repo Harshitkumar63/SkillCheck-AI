@@ -35,7 +35,7 @@ load_dotenv()
 # App
 app = FastAPI(title="AI Interviewer API", version="2.0.0")
 
-# CORS: allow localhost for dev, plus optional env-configured origins and a regex for Vercel by default
+
 default_origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
