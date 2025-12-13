@@ -32,7 +32,6 @@ except Exception:
 # Env
 load_dotenv()
 
-# App
 app = FastAPI(title="AI Interviewer API", version="2.0.0")
 
 
