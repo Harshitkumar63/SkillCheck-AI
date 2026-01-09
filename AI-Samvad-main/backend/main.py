@@ -37,7 +37,7 @@ app = FastAPI(title="AI Interviewer API", version="2.0.0")
 
 default_origins = [
     "http://localhost:3000",
-    "http://127.0.0.1:3000",
+    "http://127.0.0.1:3000", 
 ]
 extra_origins_env = os.getenv("CORS_ALLOW_ORIGINS", "").strip()
 extra_origins = [o.strip() for o in extra_origins_env.split(",") if o.strip()] if extra_origins_env else []
