@@ -5,7 +5,7 @@ from typing import Optional
 from datetime import datetime
 from dotenv import load_dotenv
 import os
-import smtplib
+import smtplib 
 import ssl
 from email.message import EmailMessage 
 from email.mime.text import MIMEText
