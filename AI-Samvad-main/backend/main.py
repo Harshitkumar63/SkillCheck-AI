@@ -27,7 +27,7 @@ except Exception:
         CHEAT_DETECTION_TYPE = "lightweight"
     except Exception:
         cheat_detector = None  # type: ignore
-        CHEAT_DETECTION_TYPE = "disabled" 
+        CHEAT_DETECTION_TYPE = "disabled"
 
 # Env
 load_dotenv()
