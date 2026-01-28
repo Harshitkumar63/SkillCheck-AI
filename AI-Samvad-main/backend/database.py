@@ -25,7 +25,7 @@ class User(Base):
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     
     # Relationships
-    sessions = relationship("InterviewSession", back_populates="user") 
+    sessions = relationship("InterviewSession", back_populates="user")
 
 class InterviewSession(Base):
     __tablename__ = "interview_sessions"
