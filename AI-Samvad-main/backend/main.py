@@ -24,7 +24,7 @@ try:
 except Exception:
     try:
         from cheat_detection_lite import lightweight_cheat_detector as cheat_detector  # type: ignore
-        CHEAT_DETECTION_TYPE = "lightweight"
+        CHEAT_DETECTION_TYPE = "lightweight" 
     except Exception:
         cheat_detector = None  # type: ignore
         CHEAT_DETECTION_TYPE = "disabled"
