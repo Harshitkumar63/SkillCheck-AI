@@ -17,7 +17,7 @@ try:
     from ai_services import ai_service  # type: ignore
 except Exception:
     ai_service = None  
-
+ 
 try:
     from cheat_detection import cheat_detector  # type: ignore
     CHEAT_DETECTION_TYPE = "advanced"
