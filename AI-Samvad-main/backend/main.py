@@ -32,7 +32,7 @@ except Exception:
 # Env
 load_dotenv()
 
-app = FastAPI(title="AI Interviewer API", version="2.0.0")
+app = FastAPI(title="AI Interviewer API", version="2.0.0") 
 
 
 default_origins = [
